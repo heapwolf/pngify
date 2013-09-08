@@ -1,0 +1,11 @@
+{
+  "name": "png",
+  "version": "0.0.1",
+  "description": "",
+  "main": "decode.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": "hij1nx",
+  "license": "BSD-2-Clause"
+}
