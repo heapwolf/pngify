@@ -1,11 +1,11 @@
 {
-  "name": "png",
+  "name": "pngify",
   "version": "0.0.1",
-  "description": "",
+  "description": "encodes text as a png file, decodes png files as text, pure js, no deps.",
   "main": "decode.js",
   "scripts": {
     "test": "node ./test.js"
   },
   "author": "hij1nx",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause, MIT"
 }
