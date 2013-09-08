@@ -11,5 +11,5 @@ encoder.encodeImage(key, __dirname + '/test.png', function(err) {
   encoder.decodeImage(__dirname + '/test.png', function(err, str) {
     assert.deepEqual(str, key, 'extracted string and original string should be the same')
   })
-})
+}) 
 

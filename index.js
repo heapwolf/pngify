@@ -32,7 +32,7 @@ exports.decodeImage = function(filename, callback) {
     decode(rawdata, function(err, data) {
 
       if (err) {
-        return console.log(err)
+        return callback(err)
       }
 
       var sqrt = Math.sqrt(data.length)/2 
